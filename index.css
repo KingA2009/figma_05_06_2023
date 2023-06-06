@@ -229,31 +229,48 @@ a {
 }
 
 
-#last_button{
+#last_button {
     font-size: 12px;
     line-height: 18px;
 }
 
-.telegram_icon{
+.telegram_icon {
     display: flex;
     gap: 20px;
 }
 
-footer{
+footer {
     margin-top: -60px;
     padding-left: 500px;
 }
 
-#telegram{
+#telegram {
     font-size: 30px;
     margin-left: 15px;
     margin-bottom: 40px;
 }
 
-#instagram{
+#instagram {
     font-size: 30px;
 }
 
-a{
+a {
     text-decoration: none;
+}
+
+
+@media (max-with: 576px) {
+    .img_project {
+        width: 100%;
+    }
+
+    footer {
+        justify-content: center;
+        /* padding-left: 200px; */
+    }
+
+    .text_main4 {
+        font-size: 24px;
+        line-height: 32px;
+    }
 }
