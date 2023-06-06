@@ -259,9 +259,9 @@ a {
 }
 
 
-@media (max-with: 576px) {
+@media (max-width: 576px) {
     .img_project {
-        width: 100%;
+        width: 60%;
     }
 
     footer {
@@ -272,5 +272,19 @@ a {
     .text_main4 {
         font-size: 24px;
         line-height: 32px;
+    }
+    .name {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background: none;
+        border-bottom: 2px solid #DAD2E3;
+        color: #A8A0B0;
+        padding-left: 5px;
+        padding-top: 12px;
+        padding-bottom: 11px;
+        width: 300px;
+        margin-bottom: 25px;
+        /* padding-right: 600px; */
     }
 }
